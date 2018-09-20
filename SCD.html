@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="media/logo/logo_square_black.png" rel="icon">
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -38,7 +39,7 @@
 </nav>
 <div class="content">
     <div id="header">
-        <div class="header-image">
+        <div id="header-image">
             <div class="overlay"></div>
             <img src="media/photos/2017BreakingGround109.jpg" id="header-pic"/>
         </div>
@@ -48,7 +49,7 @@
         <div class="container">
             <h2 class="text-center">Engaging in artistic expression and cultural understanding.</h2>
             <div class="row justify-content-center">
-                <div class="col-8 col-md-9 col-sm-12">
+                <div class="col-lg-8 col-md-9 col-sm-10 col-11">
                     <p class="text-center large-text">Stanford Chinese Dance (SCD) provides Stanford students with the opportunity to experience Chinese dance and culture. SCD was founded in 2006 by three Stanford undergraduate students and Chinese dance enthusiasts Kerry Lee '07, Cheri Li '08, and Yung-Yee Chen '08, who sought an outlet on campus to learn and perform the art of Chinese dance. In 2007 SCD invited acclaimed Chinese dance instructor Hai Yan Jackson from Sichuan, China to take the group to the next level.</p>
                 </div>
             </div>
@@ -57,46 +58,46 @@
     <section class="section-border accent-gray-bg" id="dancers">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-11">
-                    <h2 class="text-center mb-3">Meet our dancers.</h2>
+                <div class="col-sm-11 col-12">
+                    <h2 class="text-center mb-2">Meet our dancers.</h2>
                     <div class="row">
-                        <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="col-lg-3 col-md-4 col-6">
                             <div class="img-container">
                                 <img class="propic" src="media/photos/people/ariel_liu.jpg"/>
                             </div>
                             <p class="text-center"><b>Ariel Liu</b><br/>Co-President<br/>Product Design '19</p>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="col-lg-3 col-md-4 col-6">
                             <div class="img-container">
                                 <img class="propic" src="media/photos/people/jenny_zhi.jpg"/>
                             </div>
                             <p class="text-center"><b>Jenny Zhi</b><br/>Co-President<br/>Symbolic Systems '21</p>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="col-lg-3 col-md-4 col-6">
                             <div class="img-container">
                                 <img class="propic" src="media/photos/people/priscilla_lui.jpg"/>
                             </div>
                             <p class="text-center"><b>Priscilla Lui</b><br/>Financial Officer<br/>Computer Science '21</p>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="col-lg-3 col-md-4 col-6">
                             <div class="img-container">
                                 <img class="propic" src="media/photos/people/katy_woo.jpg"/>
                             </div>
                             <p class="text-center"><b>Katy Woo</b><br/>Mathematics '20</p>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="col-lg-3 col-md-4 col-6">
                             <div class="img-container">
                                 <img class="propic" src="media/photos/people/alicia_hu.jpg"/>
                             </div>
                             <p class="text-center"><b>Alicia Hu</b><br/>International Relations '20</p>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="col-lg-3 col-md-4 col-6">
                             <div class="img-container">
                                 <img class="propic" src="media/photos/people/christine_xue.jpg"/>
                             </div>
                             <p class="text-center"><b>Christine Xue</b><br/>Undeclared '21</p>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="col-lg-3 col-md-4 col-6">
                             <div class="img-container">
                                 <img class="propic" src="media/photos/people/shawn_lee.jpg"/>
                             </div>
@@ -126,28 +127,39 @@
                         </div>
                         <div class="tab-content" id="gallery-tabs-content">
                             <div class="tab-pane fade show active" id="jade" role="tabpanel" aria-labelledby="jade-tab">
-                                <p>Jade statues come to life; a classical Chinese dance.<br/><i>Alicia Hu, Shawn Lee, Ariel Liu, Priscilla Lui, Katy Woo, Christine Xue, Jenny Zhi</i></p>
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/hVtlXX6EyWI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                <p>Jade statues come to life; a classical Chinese dance.<br/><i>Odette Du, Alicia Hu, Shawn Lee, Priscilla Lui, Katy Woo, Christine Xue, Jenny Zhi</i></p>
+                                <div class="iframe-container">
+                                    <iframe src="https://www.youtube.com/embed/hVtlXX6EyWI?rel=0&amp;showinfo=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                </div>
                             </div>
                             <div class="tab-pane fade" id="umbrella" role="tabpanel" aria-labelledby="umbrella-tab">
                                 <p>Young girls frolicking in the spring rain.<br/><i>Alicia Hu, Priscilla Lui, Katy Woo, Jenny Zhi</i></p>
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/C3eOQBNWw74?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                <div class="iframe-container">
+                                    <iframe src="https://www.youtube.com/embed/C3eOQBNWw74?rel=0&amp;showinfo=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                </div>
                             </div>
                             <div class="tab-pane fade" id="yi" role="tabpanel" aria-labelledby="yi-tab">
                                 <p>Festivities of the Yi ethnic group.<br/><i>Alicia Hu, Shawn Lee, Ariel Liu, Priscilla Lui, Katy Woo, Christine Xue, Jenny Zhi</i></p>
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/x-M481ydD0w?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                <div class="iframe-container">
+                                    <iframe src="https://www.youtube.com/embed/S6p-x2PT6nU?rel=0&amp;showinfo=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>                           </div>
                             </div>
                             <div class="tab-pane fade" id="uyghur" role="tabpanel" aria-labelledby="uyghur-tab">
                                 <p>Dance from the Uyghur ethnic group.<br/><i>Odette Du, Ariel Liu, Stephanie Uduji, Katy Woo</i></p>
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/8Hy9SuL0zFI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                <div class="iframe-container">
+                                    <iframe src="https://www.youtube.com/embed/8Hy9SuL0zFI?rel=0&amp;showinfo=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                </div>
                             </div>
                             <div class="tab-pane fade" id="caiwei" role="tabpanel" aria-labelledby="caiwei-tab">
                                 <p>The Book of Odes: "When I left here, Willow shed tear. I came back now, Snow bends the bough. Long, long the way, hard, hard the day. Hunger and thirst, press me the worst. My grief overflows. Who knows, Who knows."</br><i>Odette Du, Leying Guan, Annie Hu, Karen Huynh, Shawn Lee, Ariel Liu, Janet Liu, Stephanie Uduji, Katy Woo, Zhexin Zhao</i></p>
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Yjje0QvmYqg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                <div class="iframe-container">
+                                    <iframe src="https://www.youtube.com/embed/Yjje0QvmYqg?rel=0&amp;showinfo=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                </div>
                             </div>
                             <div class="tab-pane fade" id="ribbon" role="tabpanel" aria-labelledby="ribbon-tab">
                                 <p>Fluttering ribbons, rhythmic Chinese instrumental, and energetic dancers together herald the new year’s arrival.<br/><i>Helen Chen, Sunny Chen, Tingting Dai, Odette Du, Leying Guan, Annie Hu, Karen Huynh, Shawn Lee, Ariel Liu, Janet Liu, Stephanie Uduji, Katy Woo, Xueying Yan, Zhexin Zhao</i></p>
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/_EIlGluLoyo?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                <div class="iframe-container">
+                                    <iframe src="https://www.youtube.com/embed/_EIlGluLoyo?rel=0&amp;showinfo=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                </div>
                             </div>
                         </div>
                     </nav>
@@ -161,11 +173,11 @@
                 <div class="col-12">
                     <h2 class="text-center">Dance with us.</h2>
                     <div class="row">
-                        <div class="col p-4">
-                            <p class="text-justify mb-2">If you're a Stanford undergraduate student and interested in joining SCD, welcome! Feel free to pop by one of our practices (Sunday 4:30-6:30 @ Roble Gym 114) and say hi!</p>
+                        <div class="col-sm p-4">
+                            <p class="text-justify mb-2">If you're a Stanford undergraduate student and interested in joining SCD, welcome! Feel free to pop by one of our practices (Sundays 4:30-6:30 @ Roble Gym 114) and say hi!</p>
                             <p class="text-justify">We only require that you are a Stanford undergraduate student interested in learning the art of Chinese dance. No previous experience with Chinese dance is required — in fact, many of our current members joined without having any previous dance experience. We also happily welcome and encourage students of all backgrounds and ethnicities. Feel free to <a href="mailto:stanfordchinesedancers@gmail.com">email us</a> with any questions!</p>
                         </div>
-                        <div class="col p-4">
+                        <div class="col-sm p-4">
                             <p class="mb-2"><b>Want to book us for an event?</b></p>
                             <p class="text-justify mb-2">Aside from dance showcases, SCD also performs at special banquets, graduation dinners, Lunar New Year festivals, and shows held anywhere from dorms and dining halls to places like Great America and San Francisco.</p>
                             <p class="text-justify mb-2">If you're interested in booking us for your event, <a href="mailto:stanfordchinesedancers@gmail.com">email us</a> with details on event date and location, performance time, and requested duration of performance. We look forward to working with you!</p>

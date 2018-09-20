@@ -36,6 +36,7 @@ p {
 }
 
 a {
+    font-size: 0.85rem !important;
     color: var(--link) !important;
 }
 
@@ -80,7 +81,7 @@ a:hover, a:active {
     height: 100vh;
 }
 
-.header-image {
+#header-image {
     position: absolute;
     z-index: -1;
     width: 100%;
@@ -88,7 +89,7 @@ a:hover, a:active {
     overflow: hidden;
 }
 
-.header-image img {
+#header-image img {
     position: absolute;
     top: 52%;
     transform: translateY(-50%);
@@ -128,8 +129,27 @@ section {
 }
 
 .tab-pane {
-    padding: 2rem;
+    padding: 2rem 1rem 0;
     text-align:center;
+}
+
+.iframe-container {
+    overflow:hidden;
+    padding-top: 50%;
+    position:relative;
+}
+
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 5%;
+    position: absolute;
+    top: 0;
+    width: 90%;
+}
+
+iframe {
+    widthh: 90%;
 }
 
 .fa {
